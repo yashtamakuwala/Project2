@@ -24,20 +24,29 @@
                                     <constraint firstAttribute="width" constant="200" id="ND3-01-7ND"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="us"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Px-wD-krk"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgR-aL-XIC">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgR-aL-XIC">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Ezj-g4-R7U"/>
                                     <constraint firstAttribute="height" constant="100" id="GKa-qz-84Y"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="us"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="43m-vU-CLj"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YD4-qW-oHC">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YD4-qW-oHC">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="LFX-7L-QYi"/>
                                     <constraint firstAttribute="height" constant="100" id="tjB-fZ-1dj"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="us"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FLo-Gb-WpQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
